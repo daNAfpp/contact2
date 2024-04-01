@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Book</title>
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="container-logo">
+        <div class="logo">
+          <a href="#"><img src="./img/logo.jpg" alt="Logo" /></a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Contact Form -->
+
+    <div class="container">
+      <div class="contact-image">
+        <img
+          src="https://static.vecteezy.com/system/resources/thumbnails/022/385/025/small_2x/a-cute-surprised-black-haired-anime-girl-under-the-blooming-sakura-ai-generated-photo.jpg"
+          alt=""
+        />
+      </div>
+
+      <div class="contact-details">
+        <input type="text" id="firstName" placeholder="First Name" />
+        <input type="text" id="lastName" placeholder="Last Name" />
+        <input type="text" id="phoneNumber" placeholder="Phone Number" />
+      </div>
+      <div class="contact-btn">
+        <button class="save-btn">Сохранить</button>
+        <button id="saveGhanBtn">Сохранить изменение</button>
+        <button class="clear-btn">Очистить</button>
+      </div>
+    </div>
+    <div id="container1">
+      <div class="search">
+        <form>
+          <input
+            class="search-inp"
+            type="text"
+            placeholder="Search"
+            class="bi bi-search"
+          />
+          <button type="submit">Search</button>
+        </form>
+      </div>
+
+      <div id="container_contact"></div>
+    </div>
+
+    <script src="./JS/main.js"></script>
+  </body>
+</html>
